@@ -206,3 +206,15 @@ footer {
     padding: 5%;
     margin: 1%;
 }
+
+/* photos */
+
+#photos {
+clear: both;
+line-height: 0;
+column-count: 4;
+column-gap: 0;
+}
+#photos > img {
+    width: 100%;
+}
