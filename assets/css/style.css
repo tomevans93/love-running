@@ -245,3 +245,14 @@ column-gap: 0;
         display: none;
     }
 }
+
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
